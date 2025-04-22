@@ -380,7 +380,7 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 
 .section-heading h2 {
@@ -420,8 +420,17 @@ html {
     margin: 10px auto;  /* This centers the image horizontally */
     position: relative; /* or you can use transform instead */
     left: 100px;         /* shifts the image 10px to the right */
-    width: 370px;
-    height: 370px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .research-image-add-width-height img {
+    display: block;
+    margin: 10px auto;  /* This centers the image horizontally */
+    position: relative; /* or you can use transform instead */
+    left: 10px;         /* shifts the image 10px to the right */
+    /*width: 370px; */
+    /*height: 370px;*/
   }
 
 /* Buttons */
